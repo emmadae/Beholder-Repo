@@ -1,0 +1,125 @@
+/* body background styling */
+body{
+	background-color:white;
+    background-size:100%;
+    height: 100%;
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+}
+
+.main section  {
+   overflow: hidden;
+}
+
+/* page wrapper - important */
+.wrapper {
+    height: 100% !important;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* ----------------------------------------------------------------------------- */
+/* UNIVERSAL PAGE STYLING */
+.page-content{
+	position:relative;
+	color:white
+}
+
+.page-content h1{
+	font-family: "Open Sans", sans-serif;
+	font-size: 100px;
+	margin-left:17.5%;
+	margin-top:-31%;
+}
+
+#page-number{
+	font-family: "Julius Sans One", serif;
+	font-size: 118px;
+	float: right;
+	margin-top:-17%;
+	margin-right:5%;
+}
+
+.page-content h2{
+	font-family: "Raleway", sans-serif;
+	font-size: 20px;
+	margin-left:18.5%;
+	margin-top:.5%;
+}
+
+.page-content button {
+	background: none;
+	border:none;
+	margin-left:18%;
+	margin-top:3%;
+	
+}
+
+.page-content button a{
+	list-style-type: none;
+	text-decoration: none;
+	border: 1px solid white;
+	font-family: "Raleway", sans-serif;
+	font-size: 22px;
+	color:white;
+	text-align: center;
+	padding: 10px 15px;
+	transition: ease-in-out .35s;
+
+}
+
+.page-content button a:hover{
+	transition: ease-in-out .35s;
+	background:white;
+	color:#07675C;
+	cursor: pointer;
+
+}
+
+.page_container img{
+	position: relative;
+	width:75%;
+	margin-left:12.5%;
+	margin-right:12.5%;
+	margin-top:8%;
+}
+
+/* ----------------------------------------------------------------------------- */
+/* SECTION 1 PAGE STYLING */
+
+/* section 1 background image */
+.page1{
+	background-image:url("../images/image1.jpg");
+	background-size:100%;
+	background-repeat: no-repeat;
+    height: 100%;
+}
+
+.page2{
+	background-image:url("../images/image2.jpg");
+	background-size:cover;
+	height: 105%;
+	background-repeat: no-repeat;
+}
+
+.page2 button a:hover{
+	color:	#021C35;
+}
+
+
+
+
+.page3{
+	background-image:url("../images/image3.jpg");
+	background-size:100%;
+	background-repeat: no-repeat;
+    height: 100%;
+}
+
+.page2 #page-number, .page3 #page-number{
+	margin-right:3.5%;
+	font-size: 110px;
+	margin-top:-17%;
+}
+
