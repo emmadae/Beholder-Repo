@@ -628,3 +628,35 @@
 	-webkit-transform: translateX(200%);
 	transform: translateX(200%);
 }
+
+
+
+
+
+
+
+/* --------------------------------------------------------------------------------- */
+/* MEDIA QUERIES ------------------------------------------------------------------- */
+/* TABLETS */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+
+	.dotstyle li {
+		margin: 16px 16px;
+		width: 20px;
+		height: 20px;
+	}
+
+}
+
+
+/* MOBILE DEVICES */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px)
+  and (orientation: portrait) {
+
+  	.dotstyle li {
+		margin: 30px 18px;
+		width: 25px;
+		height: 25px;
+	}
+
+}

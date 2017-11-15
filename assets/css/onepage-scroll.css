@@ -65,55 +65,39 @@ body.disabled-onepage-scroll, .disabled-onepage-scroll .onepage-wrapper, html {
 }
 
 
-/*
 
-body.disabled-onepage-scroll .onepage-wrapper  section {
-  min-height: 100%;
-  height: auto;
+/* --------------------------------------------------------------------------------- */
+/* MEDIA QUERIES ------------------------------------------------------------------- */
+/* TABLETS */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  
+  .onepage-pagination {
+    position: absolute;
+    left:3%;
+    top: 45%;
+    z-index: 5;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
 }
 
-body.disabled-onepage-scroll .main section .page_container, body.disabled-onepage-scroll .main section.page3 .page_container  {
-  padding: 20px;
-  margin-top: 150px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+
+/* MOBILE DEVICES */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px)
+  and (orientation: portrait) {
+
+    .onepage-pagination {
+      position: absolute;
+      left:3%;
+      top: 42%;
+      z-index: 5;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+
+
 }
-
-body.disabled-onepage-scroll  section .page_container h1{
-  text-align: center;
-  font-size: 50px;
-}
-
-body.disabled-onepage-scroll section .page_container h2, body.disabled-onepage-scroll section .page_container .credit, body.disabled-onepage-scroll section .page_container .btns{
-  text-align: center;
-  width: 100%;
-}
-
-body.disabled-onepage-scroll .main section.page1 > img {
-  position: absolute;
-  width: 80%;
-  left: 10%;
-}
-
-body.disabled-onepage-scroll .main section > img {
-  position: relative;
-  max-width: 80%;
-  bottom: 0;
-}
-
-body.disabled-onepage-scroll code {
-  width: 95%;
-  margin: 0 auto 25px;
-  float: none;
-  overflow: hidden;
-}
-
-body.disabled-onepage-scroll .main section.page3 .page_container {
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-  right: 0;
-} 
-
-*/
